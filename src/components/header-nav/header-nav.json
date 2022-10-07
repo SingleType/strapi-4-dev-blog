@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_header_nav_header_navs",
+  "info": {
+    "displayName": "headerNav",
+    "icon": "home"
+  },
+  "options": {},
+  "attributes": {
+    "headerNavPages": {
+      "type": "enumeration",
+      "enum": [
+        "Blog",
+        "Courses",
+        "About"
+      ]
+    },
+    "headerNavLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
